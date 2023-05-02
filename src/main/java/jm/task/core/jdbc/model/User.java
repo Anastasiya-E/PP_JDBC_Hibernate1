@@ -22,6 +22,11 @@ public class User {
 
     }
 
+    @Override
+    public String toString() {
+        return "id: " + id.toString() + " name: " + name + " lastName: " + lastName + " age: " + age.toString();
+    }
+
     public User(String name, String lastName, Byte age) {
         this.name = name;
         this.lastName = lastName;
